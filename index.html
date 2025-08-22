@@ -88,8 +88,12 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><radialGradient id="a" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="white" stop-opacity="0.1"/><stop offset="100%" stop-color="white" stop-opacity="0"/></radialGradient></defs><circle cx="200" cy="200" r="3" fill="white" opacity="0.3"/><circle cx="800" cy="300" r="2" fill="white" opacity="0.3"/><circle cx="400" cy="600" r="2.5" fill="white" opacity="0.3"/><circle cx="700" cy="800" r="2" fill="white" opacity="0.3"/><circle cx="300" cy="900" r="3" fill="white" opacity="0.3"/></svg>') repeat;
+            background: 
+                linear-gradient(135deg, rgba(45, 27, 105, 0.75) 0%, rgba(17, 0, 28, 0.75) 100%),
+                url('https://raw.githubusercontent.com/pingchuantsai/Image_storing/main/StemCells2.png') center/cover,
+            background-blend-mode: overlay, normal, normal;
             animation: float 20s ease-in-out infinite;
+            opacity: 0.9;
         }
         
         @keyframes float {
@@ -660,11 +664,6 @@
             <div class="hero-content">
                 <h1>Accelerating Biologics Innovation</h1>
                 <p>Expert consulting services in Cell Line Development, Protein Science, CMC, and CDMO Due Diligence to advance your biologics from concept to clinic</p>
-            </div>
-                        <div class="hero-image">
-                <img
-                    src="https://github.com/pingchuantsai/Image_storing/blob/main/CHO-cells2.png"
-                />
             </div>
         </section>
 
